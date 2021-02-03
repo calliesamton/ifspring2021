@@ -1,0 +1,56 @@
+body {
+    font-family: 'Courier New';
+    text-align: center;
+}
+
+.title {
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    text-decoration: underline;
+}
+
+.O {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    text-decoration-color: black;
+    color: red;
+    
+}
+
+.div {
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.setting {
+    text-align: left;
+    width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.name {
+    font-family: 'Courier New';
+    font-weight: bold;
+}
+
+.stage-directions {
+    font-style: italic;
+}
+
+.line {
+    display: inline-block;
+    text-align: left;
+    width: 300px;
+    margin: auto;
+}
+
+.action {
+    text-align: left;
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
