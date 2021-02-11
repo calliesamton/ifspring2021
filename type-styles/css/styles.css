@@ -1,0 +1,75 @@
+html {
+    font-family: 'Crimson Text', serif;
+    background-color: #f7efdf
+}
+
+body {
+    margin: 5%;
+}
+
+header {
+    font-family: futura;
+    text-indent: -1rem;
+}
+
+section {
+    margin: 3rem 0; 
+    font-size: 24px;
+}
+
+p {
+    line-height: .1;
+}
+
+.heading {
+    font-family: futura;
+    color: gray;
+    text-indent: -1rem;
+    line-height: 1.5;
+}
+
+.subheading {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 0.5em;
+    color: gray;
+}
+
+.weight2 {
+    font-weight: bold;
+}
+
+.style2 {
+    font-style: italic;
+}
+
+.spacing2 {
+    letter-spacing: .5em;
+}
+
+.spacing3 {
+    letter-spacing: -.06em;
+}
+
+.decor2 {
+    text-decoration: underline;
+}
+
+.decor3 {
+    text-decoration: line-through;
+}
+
+.decor4 {
+    text-decoration: overline;
+}
+
+.transform2 {
+    text-transform: uppercase;
+}
+
+.transform3 {
+    text-transform: lowercase;
+}
+
+.transform4 {
+    text-transform: capitalize;
+}
