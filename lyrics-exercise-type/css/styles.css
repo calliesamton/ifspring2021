@@ -1,0 +1,59 @@
+body {
+    background-image: url(https://images.genius.com/0556a43d1a950aa55e495999affbf631.124x200x1.jpg)
+}
+
+.title {
+    font-family: 'New Rocker';
+    color: black; 
+    text-shadow: 3px 3px #f6d951;
+    position: relative;
+    left: 200px;
+    font-size: 60px;
+}
+
+.band {
+    font-size: 70px;
+    padding: 20px;
+    color: black;
+    text-shadow: 3px 3px #f6d951;;
+    font-family: 'New Rocker';
+    position: absolute;
+    left: 1170px;
+    top: 250px;
+    writing-mode: sideways-rl;
+    
+}
+
+main {
+    font-family: 'Source Code Pro', monospace;
+    background-color: #f6d951;
+    color: black; 
+    position: relative; 
+    right: 300px;
+    left: 400px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 300px;
+    padding: 100px 200px;
+    text-align: left;
+    border: 3px solid;
+}
+
+.chorus {
+    font-weight: bold;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    letter-spacing: -.06em;
+    text-transform: uppercase;
+}
+
+.verse {
+    letter-spacing: -.06em;
+    text-transform: lowercase;
+}
+
+.outro {
+    letter-spacing: -.06em;
+    text-transform: lowercase;
+}
+
