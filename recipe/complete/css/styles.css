@@ -1,0 +1,156 @@
+body {
+    width: 960px;
+    max-width: 90%;
+    margin: auto;
+    font-family:'Lato', sans-serif;
+}
+.photo{
+    width:50%;
+    margin-bottom: 10pt;
+}
+
+img {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ratings {
+    width: 60pt;
+    margin-left: 0;
+    margin-top: 10pt;
+    float: left;
+}
+
+.photo p {
+    font-size: 9pt;
+    margin-top: 13pt;
+}
+
+@media (min-width: 640px) {
+    .photo {float: left;}
+    .intro {float: left;}
+    .recipe { display: flex;} 
+}
+
+h1 {
+    font-size: 35pt;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    margin-bottom: 0;
+    letter-spacing: .1rem;
+}
+
+header h2 {
+    font-size: 11pt;
+    text-align: left;
+    margin-bottom: 40px;
+    font-weight: lighter;
+    margin-top: 5pt;
+    text-decoration: underline;
+}
+
+header {
+    border-bottom: 1px black solid;
+}
+
+
+.recipe {
+    margin-top: 50px;
+    width: 100%;
+    border-top: 1px solid black;
+    padding-top: 25px;
+}
+
+.ingredients{
+    width: 25%;
+}
+
+.instructions {
+    width: 75%;
+    margin-left: 100px;
+}
+
+.ingredients li { 
+    display: block; 
+    padding: .5rem;
+    margin-left: 15px;
+    font-weight: lighter;
+}
+
+.ingredients h3 {
+    font-family: 'Suez One', serif;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.instructions h3 {
+    font-family: 'Suez One', serif;
+    font-size: 13px;
+    text-transform: uppercase;
+
+}
+
+.instructions li { 
+    display: block;
+}
+
+.ingredients ul {
+    padding: 0;
+    margin-top: 0;
+}
+
+.instructions ul {
+    padding: 0;
+}
+
+.ingredients div {
+    text-transform: uppercase;
+    margin-left: 10pt;
+    font-weight: bold;
+}
+
+.instructions .step {
+    font-weight: bold;
+}
+
+.intro .description { 
+    margin-top: 10px;
+    font-size: 13pt;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 10px;
+}
+
+.intro p {
+    margin: 0;
+    margin-top: 10px;
+    font-size: 12pt;
+    text-align: left;
+}
+
+.intro span {
+    font-family: 'Suez One', serif;
+    font-size: 15px;
+}
+
+.intro {
+    text-align: center;
+    width: 50%;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 640px) {
+    .intro {width: 100%;
+    padding: 0;}
+    .photo {width: 100%;}
+    .instructions ul {padding-left: 20pt;}
+    .ingredients {width: 100%}
+    .instructions {margin-left: 0}
+}
+
+.top {
+    padding-top: 50px;
+}
