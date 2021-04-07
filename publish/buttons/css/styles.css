@@ -1,0 +1,489 @@
+body {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    margin: 40px;
+    padding: 0;
+}
+
+h1 {
+     font-size: 30px;
+     margin-bottom: 40px;
+}
+
+.button_container {
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+a{
+    color:inherit;
+}
+
+a#btn_spotify {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    background-color: #2ebd59;
+    border: 2px solid #2ebd59;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_spotify:hover {
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000;
+}
+
+a#btn_amazon {
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 10px;
+    background-color: #232f3e;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    transition: all .2s;
+}
+
+a#btn_amazon:hover {
+    background-color: #fc9a18;
+}
+
+a#btn_twitter {
+    display: inline-block;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 105px;
+    padding: 10px 30px 0 30px;
+    background-color: #56cdf1;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a#btn_twitter:hover {
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+    background: rgb(46,191,236); /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  rgba(46,191,236,1) 0%, rgba(40,165,203,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+a#btn_indiegogo {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: #fff;
+    color: #eb1478;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -2px;
+    transition: all .2s;
+}
+
+a#btn_indiegogo:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #eb1478;
+    transition: all .5s;
+}
+
+a#btn_indiegogo:hover {
+    color: #fff;
+}
+
+a#btn_indiegogo:hover:before {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+a#btn_indiegogo span {
+    position: relative;
+    z-index: 10;
+}
+
+a#btn_cocacola img {
+    display: inline-block;
+    position: relative;
+    height: 200px;
+    margin: auto;
+    margin-top: 30px;
+    transition: .2s;
+}
+
+a#btn_cocacola img:hover {
+    transform: rotate(15deg);
+    transition: .2s;
+}
+
+a#btn_apple i {
+    margin: auto;
+    font-size: 100pt;
+    margin-top: 50px;
+    color: #9c9c9c;
+    transition: .2s;
+}
+
+a#btn_apple i:hover {
+    color:black;
+    transition: .2s;
+}
+
+a#btn_sardella {
+    display: block;
+    font-family: 'Londrina Solid', cursive;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 100px;
+    letter-spacing: .5rem;
+    color: #0700CC;
+    transition: .2s;
+    text-shadow: 2px 2px #00FFD3;
+}
+
+a#btn_sardella:hover {
+    font-size: 50px;
+    color:  #02D7D5;
+    text-shadow: 2px 2px white;
+    transition: .2s;
+}
+
+a#btn_cartoonnetwork {
+    display: inline-block;
+    font-size: 100px;
+    text-decoration: none;
+    margin: auto;
+    margin-top: 50px;
+    font-family: 'Erica One', cursive;
+}
+
+a#btn_cartoonnetwork div.cartoon {
+    display: inline-block;
+    color: white;
+    background-color: black;
+    box-sizing: border-box;
+    border: black solid 1px;
+    line-height: 50px;
+    padding: 6px 6px 15px 1px;
+    text-align: center;
+    font-size: 90px;
+    transition: .2s;
+}
+
+a#btn_cartoonnetwork div.network {
+    display: inline-block;
+    color: black;
+    margin-left: 5px;
+    font-size: 90px;
+    transition: .2s;
+}
+
+a#btn_cartoonnetwork div.cartoon:hover{
+    background-color: orange;
+    border-color: orange;
+    transition: .2s;
+}
+
+a#btn_cartoonnetwork div.network:hover {
+    color: orange;
+    transition: .2s;
+}
+
+a#btn_thetonightshow {
+    display: block;
+    margin: auto;
+    margin-top:50px;
+    font-size: 20px;
+    color: #151F36;
+    text-decoration: none;
+    font-family:'Open Sans', sans-serif;
+    text-transform: uppercase;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 5px #151F36 solid;
+    padding:25px;
+    border-radius: 50%;
+    transition: .2s;
+}
+
+a#btn_thetonightshow:hover {
+    background-color: #151F36; 
+    color: white;
+    transition: .2s;
+}
+
+a#btn_nike {
+    display: block;
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 50px;
+    margin: auto;
+    margin-top: 90px;
+    color: black;
+    transition: .2s;
+}
+
+a#btn_nike:hover {
+    font-style: italic;
+    transition: .2s;
+    text-shadow: 0 0 10px #D6E657;
+}
+
+a#btn_wizardingworld {
+    display: block;
+    text-decoration: none;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 40px;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 75px;
+    text-align: center;
+    color: #6279af;
+    transition: .2s;
+}
+
+a#btn_wizardingworld:hover {
+    text-shadow: 0 0 3px rgb(252, 194, 4);
+    transition: .2s;
+}
+
+a#btn_thenewyorker img{
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    width: 200px;
+    margin-top: 100px;
+    transition: .2s;
+}
+
+a#btn_thenewyorker img:hover {
+    transform: scale(.9);
+    transition: .2s;
+}
+
+a#btn_NPR img {
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+    margin-top: 75px;
+    transition: .2s;
+}
+
+a#btn_NPR img:hover {
+    transition: .2s;
+}
+
+a#btn_NPR {
+    filter: grayscale(100%);
+    transition: .2s;
+}
+
+a#btn_NPR:hover {
+    filter: none;
+    transition: .2s;
+}
+
+a#btn_instagram i{
+    display: inline-block;
+    font-size: 100px;
+    margin: auto;
+    margin-top: 70px;
+    transition: .5s;
+}
+
+a#btn_instagram:hover i{
+    transform: rotate(90deg);
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    transition: .5s;
+}
+
+a#btn_facebook {
+    color: #4267B2;
+    display: block;
+    font-size: 100px;
+    margin: auto;
+    margin-top: 50px;
+    transition: .2s;
+}
+
+a#btn_facebook:hover {
+    transform: translate(10px);
+    transition: .2s;
+}
+
+a#btn_tesla {
+    display: block;
+    font-family: 'Orbitron', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: auto;
+    margin-top: 70px;
+    font-size: 35px;
+    font-weight: bold;
+    color: lightgray;
+    background-color: black;
+    padding: 25px 15px 25px 15px;
+    border: lightgray 3px solid;
+    transition: .2s;
+    border-radius: 25px;
+    
+}
+
+a#btn_tesla:hover {
+    letter-spacing: .5rem;
+    transition: .2s;
+}
+
+a#btn_ideo {
+    font-family: 'Jost', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    margin: auto;
+    margin-top: 90px;
+    font-size: 50px;
+    color: #F26631;
+    text-shadow: 3px 3px 0px #70CBC9;
+    transition: 1s;
+    
+}
+
+a#btn_ideo:hover {
+    text-shadow: 0px 0px 10px #70CBC9;
+    transition: 1s;
+}
+
+a#btn_lyft i {
+    display: inline-block;
+    font-size: 70px;
+    margin: auto;
+    margin-top: 90px;
+    color: #FF01BF;
+    transition: .2s;
+}
+
+a#btn_lyft i:hover {
+    color: #0C0B31;
+    transition: .2s;
+}
+
+a#btn_army {
+    display: block;
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: auto;
+    margin-top: 90px;
+    color: white;
+    border: #FDD633 5px solid;
+    border-radius: 25px;
+    background-color: black;
+    transition: .2s;
+}
+
+a#btn_army:hover {
+    color: #FDD633;
+    transition: .2s;
+}
+
+    
+a#btn_thecolorrun {
+    display: block;
+    position: relative;
+    margin: auto;
+    margin-top: 85px;
+    font-family: 'Roboto Condensed,' serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 30px;
+    letter-spacing: -2px;
+    transition: all .2s;
+    line-height: 80%;
+    text-align: left;
+    width: 50%;
+}
+
+.the {
+    color: #ED57AF;
+    transition: .2s;
+}
+
+.color {
+    color: #AC59C3;
+    transition: .2s;
+}
+
+.run {
+    color: #7C92D8;
+    transition: .2s;
+}
+
+.the:hover {
+    color: white;
+    text-shadow: -2px 0 #ED57AF, 0 2px #ED57AF, 2px 0 #ED57AF, 0 -2px #ED57AF;
+    transition: .2s;
+}
+
+.color:hover {
+    color: white;
+    text-shadow: -2px 0 #AC59C3, 0 2px #AC59C3, 2px 0 #AC59C3, 0 -2px #AC59C3;
+    transition: .2s;
+}
+
+.run:hover {
+    color: white;
+    text-shadow: -2px 0 #7C92D8, 0 2px #7C92D8, 2px 0 #7C92D8, 0 -2px #7C92D8;
+    transition: .2s;
+}
